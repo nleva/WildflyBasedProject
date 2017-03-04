@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="Web">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='ru.spec.java.ejb.WildflyProject.gwt.Web' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/Web/greet" class="ru.spec.java.ejb.WildflyProject.gwt.server.GreetingServiceImpl" />
+
+</module>
